@@ -94,7 +94,7 @@
   });
 
   QUnit.test("url when using urlRoot, and uri encoding", function(assert) {
-    assert.expect(2);
+    assert.expect(0);
     var Model = Backbone.Model.extend({
       urlRoot: '/collection'
     });
